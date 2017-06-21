@@ -83,6 +83,11 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI
+
+
 # Display
 TARGET_USES_HWC2 := true
 
