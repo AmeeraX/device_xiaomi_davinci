@@ -25,6 +25,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.data.mode=concurrent \
     ro.vendor.use_data_netmgrd=true
 
+# DEXOPT: dex2oat improve boot time
+PRODUCT_PROPERTY_OVERRIDES  += \
+dalvik.vm.boot-dex2oat-threads=8 \ 
+dalvik.vm.dex2oat-threads=8 \
+dalvik.vm.image-dex2oat-threads=8 \
+dalvik.vm.image-dex2oat-filter=speed \
+ro.vendor.qti.am.reschedule_service=true
+
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.eyecare.brightness.threshold=11 \
