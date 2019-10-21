@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "android_vendor_xiaomi_davinci",
+    "repository": "vendor_xiaomi_davinci",
+    "target_path": "vendor/xiaomi/davinci"
+  }
+  {
+    "repository": "kernel_xiaomi_davinci",
+    "repository": "kernel_xiaomi_davinci",
+    "target_path": "kernel/xiaomi/davinci"
+  }
+]
