@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_davinci.mk
+    $(LOCAL_DIR)/aosip.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_davinci-userdebug \
-    havoc_davinci-eng
+    aosip_davinci-userdebug \
+    aosip_davinci-eng
