@@ -853,4 +853,5 @@
          manager will disable alpha trasformation in animations where not
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
+    <bool name="config_multiColorBatteryLed">false</bool>
 </resources>
