@@ -163,11 +163,11 @@
         <item>240.74442</item>  <!-- 1097-1808 -->
         <item>294.84857</item>  <!-- 1808-2981 -->
         <item>348.05453</item>  <!-- 2981-5000 -->
-        <item>450</item>        <!-- 5000+ -->
+        <item>389.70</item>     <!-- 5000+ -->
     </array>
 
     <!-- Minimum screen brightness allowed by the power manager. -->
-    <integer name="config_screenBrightnessDim">6</integer>
+    <integer name="config_screenBrightnessDim">1</integer>
 
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
@@ -706,12 +706,12 @@
         <item>406.87</item>
         <item>408.51</item>
         <item>410.15</item>
-        <item>416.79</item>
-        <item>423.43</item>
-        <item>430.07</item>
-        <item>436.71</item>
-        <item>443.35</item>
-        <item>450</item>
+        <item>411.79</item>
+        <item>413.44</item>
+        <item>415.08</item>
+        <item>416.72</item>
+        <item>418.36</item>
+        <item>420</item>
     </array>
 
     <!-- Whether WiFi display is supported by this device.
