@@ -1,5 +1,5 @@
 # Audio
-/system/etc/audio_platform_info\.xml    u:object_r:vendor_configs_file:s0
+/system/etc/mixer_paths_overlay_static\.xml    u:object_r:vendor_configs_file:s0
 /system/etc/audio_policy_configuration\.xml    u:object_r:vendor_configs_file:s0
 /system/lib64/soundfx/libvolumelistener\.so   u:object_r:vendor_file:s0
 /system/lib/soundfx/libvolumelistener\.so     u:object_r:vendor_file:s0
@@ -17,7 +17,6 @@
 /system/bin/hw/android\.hardware.power@1\.2-service                    u:object_r:hal_power_default_exec:s0
 /system/bin/hw/lineage\.livedisplay@2\.0-service-sdm                   u:object_r:shal_livedisplay_default_exec:s0
 /system/bin/hw/lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.davinci    u:object_r:hal_fod_davinci_exec:s0
-/system/bin/hw/android\.hardware\.power@1\.2-service\.xiaomi_sm6150    u:object_r:hal_power_default_exec:s0
 
 # Modules
 /system/lib/modules/audio_adsp_loader.ko      u:object_r:vendor_file:s0
