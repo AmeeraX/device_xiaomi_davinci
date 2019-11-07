@@ -116,7 +116,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.xiaomi_sm6150
+    android.hardware.power@1.2-service
 
 # Telephony
 PRODUCT_PACKAGES += \
