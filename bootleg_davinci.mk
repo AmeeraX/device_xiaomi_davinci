@@ -6,14 +6,14 @@
 
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/havoc/config/common.mk)
+# Inherit some common Bootleggers stuff.
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := davinci
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := havoc_davinci
+PRODUCT_NAME := bootleg_davinci
 
 BUILD_FINGERPRINT := "Xiaomi/davinciin/davinciin:9/PKQ1.181121.001/V10.3.3.0.PFKINXM:user/release-keys"
 
