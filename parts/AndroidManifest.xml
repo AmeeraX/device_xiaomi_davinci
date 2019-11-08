@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2015-2016 The CyanogenMod Project
                    2017-2018 The LineageOS Project
@@ -23,8 +22,6 @@
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-
-    <protected-broadcast android:name="com.android.systemui.doze.pulse" />
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -52,24 +49,8 @@
                        android:value="com.android.settings.category.ia.sound" />
         </activity>
 
-        <service android:name=".doze.DozeService"
-                 android:permission="XiaomiDozeService">
-        </service>
-
         <service android:name=".popupcamera.PopupCameraService"
                  android:permission="PopupCameraService">
         </service>
-
-        <activity
-            android:name=".doze.DozeSettingsActivity"
-            android:label="@string/ambient_display_title"
-            android:theme="@style/Theme.Main">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                       android:value="com.android.settings.category.ia.display" /> 
-        </activity>
-
     </application>
 </manifest>
