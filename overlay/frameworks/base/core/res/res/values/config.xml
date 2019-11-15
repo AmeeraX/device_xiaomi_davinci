@@ -864,4 +864,7 @@
   <!-- Do the battery/notification LEDs support pulsing?
        Used to decide if we show pulse settings -->
   <bool name="config_ledCanPulse">true</bool>
+
+  <!-- Manage Display Color Settings -->
+  <bool name="config_show_color_mode">false</bool>
 </resources>
