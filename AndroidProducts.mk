@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_davinci.mk
+    $(LOCAL_DIR)/aosp_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    bootleg_davinci-userdebug \
-    bootleg_davinci-eng
+    aosp_davinci-userdebug \
+    aosp_davinci-eng
